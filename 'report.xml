@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="2" skipped="0" tests="5" time="0.174" timestamp="2021-12-10T15:16:15.614577" hostname="LT-5CG83051KB"><testcase classname="test_hello" name="test_add" time="0.001" /><testcase classname="test_hello" name="test_sub" time="0.001"><failure message="assert False">def test_sub():
+&gt;       assert False
+E       assert False
+
+test_hello.py:6: AssertionError</failure></testcase><testcase classname="test_one.MyTestCase" name="test_something" time="0.001"><failure message="AssertionError: True != False">self = &lt;test_one.MyTestCase testMethod=test_something&gt;
+
+    def test_something(self):
+&gt;       self.assertEqual(True, False)
+E       AssertionError: True != False
+
+test_one.py:6: AssertionError</failure></testcase><testcase classname="test_two" name="test_login" time="0.001" /><testcase classname="test.test_two" name="test_login" time="0.001" /></testsuite></testsuites>
